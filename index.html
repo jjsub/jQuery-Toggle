@@ -11,8 +11,8 @@
 	  <meta name="description" content="The HTML5 Herald">
 	  <meta name="author" content="SitePoint">
 	 
-	  <link rel="stylesheet" href="css/styles.css?v=1.0">
-	  <link rel="stylesheet" href="node_modules/jquery-toggles/css/toggles.css">
+	  <!-- <link rel="stylesheet" href="node_modules/jquery-toggles/css/toggles.css"> -->
+	  <link rel="stylesheet" href="node_modules/jquery-toggles/css/toggles-full.css">
 	   <!--  <link rel="stylesheet" href="css/toggles-modern.css"> -->
 	 
 	  <!--[if lt IE 9]>
@@ -20,16 +20,28 @@
 	  <![endif]-->
 	</head>
 	 
-	<body>
+	<body bgcolor="silver">
+	   <p>Testing toggles</p>
+       <div class="toggle toggle-light">
 
 
+       <script type="text/javascript">
+   
+       </script>
 
 
+      <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> -->
+      <script src="bower_components/jquery/dist/jquery.js" ></script>
+	  <script src="node_modules/jquery-toggles/toggles.js"></script>
+	  <script>
 
-	  <script src="node_modules/jquery-toggles/js/Toggles.js" type="text/javascript"></script>
+       		$('.toggle').toggles({
+  // if this is set to 'select' then the select style toggle will be used
+});
+
+	  </script>
 	</body>
 </html>
-
 
 
 <head>
