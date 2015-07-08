@@ -1,0 +1,17 @@
+{
+  "name": "jQueryToggles",
+  "version": "1.0.0",
+  "description": "testing new tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toggle"
+  ],
+  "author": "jjsub",
+  "license": "ISC",
+  "dependencies": {
+    "jquery-toggles": "^3.1.5"
+  }
+}
