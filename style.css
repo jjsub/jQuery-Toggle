@@ -1,0 +1,15 @@
+body{
+	background: white;
+}
+
+.jToggle{
+	width:75px;
+	margin: 0% 50%;
+}
+
+h2{
+	font-weight: lighter;
+	color: rgb(55, 133, 239);;
+	margin: 8% 45%;
+    width: 88%;
+}
